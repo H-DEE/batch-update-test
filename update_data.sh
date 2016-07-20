@@ -1,7 +1,7 @@
 # @Author: H.D.
 # @Date:   2016-07-20 17:47:44
 # @Last Modified by:   H.D.
-# @Last Modified time: 2016-07-20 18:41:31
+# @Last Modified time: 2016-07-20 18:43:41
 
 #!/bin/sh
 git add -A
@@ -12,5 +12,7 @@ git branch -D gh-pages
 git push origin :gh-pages
 git branch gh-pages
 git push origin gh-pages
+echo ""
+echo ""
 echo "Task Complete! Press Enter to close this window..."
 read
